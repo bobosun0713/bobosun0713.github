@@ -58,7 +58,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     background: rgba(255, 255, 255, 0.2);
     /*make bubble on page bottom*/
     bottom: -100px;
-    animation: bubble-ani 20s linear infinite;
+    animation: bubble-ani 10s linear infinite;
     border-radius: 100%;
 }
 
@@ -85,7 +85,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 40px;
     height: 40px;
     left: 40%;
-    animation-duration: 13s;
+    animation-duration: 10;
     animation-delay: 2s;
 }
 
@@ -93,7 +93,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 25px;
     height: 25px;
     left: 30%;
-    animation-duration: 18s;
+    animation-duration: 15s;
     animation-delay: 3.5s;
 }
 
@@ -101,7 +101,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 60px;
     height: 60px;
     left: 55%;
-    animation-duration: 23s;
+    animation-duration: 18s;
     animation-delay: 1.5s;
 }
 
@@ -109,8 +109,26 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 20px;
     height: 20px;
     left: 35%;
-    animation-duration: 16s;
+    animation-duration: 13s;
     animation-delay: 2s;
+}
+
+.bubble li:nth-child(6) {
+    width: 25px;
+    height: 25px;
+    left: 23%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    /* border: 1px solid red; */
+}
+
+.bubble li:nth-child(7) {
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    /* border: 1px solid blue; */
 }
 
 @keyframes bubble-ani {
