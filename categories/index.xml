@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Bobosun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2020 09:32:03 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 17:13:58 +0800</lastBuildDate>
     
 	<atom:link href="https://bobosun0713.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>category</title>
+      <link>https://bobosun0713.github.io/categories/category/</link>
+      <pubDate>Sun, 28 Jun 2020 17:13:58 +0800</pubDate>
+      
+      <guid>https://bobosun0713.github.io/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://bobosun0713.github.io/categories/subcategory/</link>
+      <pubDate>Sun, 28 Jun 2020 17:13:58 +0800</pubDate>
+      
+      <guid>https://bobosun0713.github.io/categories/subcategory/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JavaScript</title>

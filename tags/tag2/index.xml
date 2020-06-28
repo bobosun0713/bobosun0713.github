@@ -6,10 +6,19 @@
     <description>Recent content in tag2 on Bobosun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2020 09:32:03 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 17:13:58 +0800</lastBuildDate>
     
 	<atom:link href="https://bobosun0713.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towdays</title>
+      <link>https://bobosun0713.github.io/2020/06/towdays/</link>
+      <pubDate>Sun, 28 Jun 2020 17:13:58 +0800</pubDate>
+      
+      <guid>https://bobosun0713.github.io/2020/06/towdays/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JS基礎複習-1</title>

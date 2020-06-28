@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>category on Hugo tranquilpeak theme</title>
+    <title>category on Bobosun</title>
     <link>https://bobosun0713.github.io/categories/category/</link>
-    <description>Recent content in category on Hugo tranquilpeak theme</description>
+    <description>Recent content in category on Bobosun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2020 21:29:36 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 17:13:58 +0800</lastBuildDate>
     
 	<atom:link href="https://bobosun0713.github.io/categories/category/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>第一天撰寫文章</title>
-      <link>https://bobosun0713.github.io/2020/06/%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</link>
-      <pubDate>Sun, 14 Jun 2020 21:29:36 +0800</pubDate>
+      <title>Towdays</title>
+      <link>https://bobosun0713.github.io/2020/06/towdays/</link>
+      <pubDate>Sun, 28 Jun 2020 17:13:58 +0800</pubDate>
       
-      <guid>https://bobosun0713.github.io/2020/06/%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%92%B0%E5%AF%AB%E6%96%87%E7%AB%A0/</guid>
-      <description>在這裡我想撰寫屬於自己的前端之路，分享工作或者學習上的心得 , 未來有許多挑戰等者我去學習 , 程式邏輯裡總是有不同的挑戰，這些挑戰激起對學習上的熱情,慢慢累積程式設計的專業知識， 不斷的追求進步 , 我相信保持者學習的熱情與興趣，s 能讓自己維持向前的動力！</description>
+      <guid>https://bobosun0713.github.io/2020/06/towdays/</guid>
+      <description></description>
     </item>
     
   </channel>
