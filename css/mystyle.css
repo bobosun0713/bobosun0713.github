@@ -37,3 +37,89 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     color: yellow;
     transform: scale(1.1) rotate(-360deg);
 }
+
+/* 背景動畫 */
+.bubble {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    /*z-index defult value=1*/
+    z-index: 0;
+    /*upgrade gpu rendering*/
+    transform: translateZ(0);
+}
+
+.bubble li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    /*make bubble on page bottom*/
+    bottom: -100px;
+    animation: bubble-ani 20s linear infinite;
+    border-radius: 100%;
+}
+
+/* glow of the bubbles*/
+.bubble li:before {
+    position: absolute;
+    left: 20%;
+    top: 21%;
+    width: 25%;
+    content: "";
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    height: 25%;
+    border-radius: 100%;
+}
+
+.bubble li:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    left: 15%;
+}
+
+.bubble li:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    animation-duration: 13s;
+    animation-delay: 2s;
+}
+
+.bubble li:nth-child(3) {
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    animation-duration: 18s;
+    animation-delay: 3.5s;
+}
+
+.bubble li:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    left: 55%;
+    animation-duration: 23s;
+    animation-delay: 1.5s;
+}
+
+.bubble li:nth-child(5) {
+    width: 20px;
+    height: 20px;
+    left: 35%;
+    animation-duration: 16s;
+    animation-delay: 2s;
+}
+
+@keyframes bubble-ani {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-1080px);
+        transform: translateY(-1080px);
+    }
+}
