@@ -4,17 +4,47 @@
   
   <url>
     <loc>https://bobosun0713.github.io/</loc>
-    <lastmod>2020-06-14T21:29:36+08:00</lastmod>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://bobosun0713.github.io/categories/</loc>
-    <lastmod>2020-06-14T21:29:36+08:00</lastmod>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/categories/category/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://bobosun0713.github.io/post/</loc>
-    <lastmod>2020-06-14T21:29:36+08:00</lastmod>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/categories/subcategory/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/tags/tag1/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/tags/tag2/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/tags/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bobosun0713.github.io/2020/06/%E5%AD%B8%E7%BF%92%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB02/</loc>
+    <lastmod>2020-06-29T22:30:36+08:00</lastmod>
   </url>
   
   <url>
@@ -23,7 +53,7 @@
   </url>
   
   <url>
-    <loc>https://bobosun0713.github.io/2020/06/%E5%AD%B8%E7%BF%92%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://bobosun0713.github.io/2020/06/%E5%AD%B8%E7%BF%92%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB01/</loc>
     <lastmod>2020-06-14T21:29:36+08:00</lastmod>
   </url>
   
@@ -59,11 +89,6 @@
   
   <url>
     <loc>https://bobosun0713.github.io/tags/responsive/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bobosun0713.github.io/tags/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
   

@@ -85,6 +85,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 40px;
     height: 40px;
     left: 40%;
+    bottom: -8%;
     animation-duration: 10;
     animation-delay: 2s;
 }
@@ -93,6 +94,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 25px;
     height: 25px;
     left: 30%;
+    bottom: -5%;
     animation-duration: 15s;
     animation-delay: 3.5s;
 }
@@ -126,7 +128,17 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 40px;
     height: 40px;
     left: 5%;
+    bottom: -7%;
     animation-duration: 7s;
+    animation-delay: 2s;
+    /* border: 1px solid blue; */
+}
+.bubble li:nth-child(8) {
+    width: 40px;
+    height: 40px;
+    left: 70%;
+    bottom: -6%;
+    animation-duration: 9s;
     animation-delay: 2s;
     /* border: 1px solid blue; */
 }
@@ -134,11 +146,11 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
 @keyframes bubble-ani {
     0% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
     100% {
         -webkit-transform: translateY(-1080px);
-        transform: translateY(-1080px);
+        transform: translateY(-1080px) rotate(100deg);
     }
 }
 /* 動態背景 (尾) */
