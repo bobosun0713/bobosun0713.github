@@ -2,10 +2,11 @@ body {
     font-family: 微軟正黑體;
 }
 
-/* sideBar 調整 */
+/* sideBar 調整 ==================================================*/
 
 .sidebar-profile h4 {
     font-size: 2rem !important;
+    margin-top: 10px;
 }
 .sidebar-profile h5 {
     font-size: 2.5rem !important;
@@ -13,7 +14,7 @@ body {
     text-shadow: 0px 0px 5px #333333;
 }
 
-/* sideBar 選單文字調整 */
+/* sideBar 選單文字調整 ==================================================*/
 ul.sidebar-buttons li.sidebar-button .sidebar-button-link span {
     font-size: 2rem !important;
     font-weight: 900;
@@ -27,18 +28,17 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i {
     transition: all 0.8s;
 }
 
-/* sideBar 選單hover動畫 */
+/* sideBar 選單hover動畫 ==================================================*/
 ul.sidebar-buttons li.sidebar-button .sidebar-button-link :hover {
     color: yellow;
-    transform: translateX(30px);
 }
 
 ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     color: yellow;
-    transform: scale(1.1) rotate(-360deg);
+    transform: scale(1.3) rotate(-360deg);
 }
 
-/* 背景動畫 */
+/* 背景動畫 ==================================================*/
 .bubble {
     position: fixed;
     top: 0;
@@ -62,7 +62,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     border-radius: 100%;
 }
 
-/* glow of the bubbles*/
+/* glow of the bubbles ==================================================*/
 .bubble li:before {
     position: absolute;
     left: 20%;
@@ -153,10 +153,10 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
         transform: translateY(-1080px) rotate(100deg);
     }
 }
-/* 動態背景 (尾) */
+/* 動態背景 (尾)================================================== */
 
 /* 頁面文章卡片內容字數 調整 */
-.postShorten .postShorten-excerpt {
+/* .postShorten .postShorten-excerpt {
     height: 85px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -165,4 +165,39 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     -webkit-box-orient: vertical;
     margin-top: 5px;
     line-height: 27px;
+} */
+
+/* 大頭貼 CSS設定  ==================================================*/
+/* 側邊欄的大頭貼 */
+#sidebar .sidebar-container .sidebar-profile .sidebar-profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid white;
+    object-fit: cover;
+    transition: all 1s;
 }
+/* 導覽列的大頭貼 */
+
+#header .header-right-picture .header-picture {
+    object-fit: cover;
+}
+@media all and (max-width: 1284px) {
+    #sidebar .sidebar-container .sidebar-profile .sidebar-profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    #sidebar .sidebar-container .sidebar-profile .sidebar-profile-picture {
+        width: 50px;
+        height: 50px;
+    }
+}
+/* @media all and (max-width: 768px) {
+    #sidebar .sidebar-container .sidebar-profile .sidebar-profile-picture {
+        width: 50px;
+        height: 50px;
+    }
+} */
