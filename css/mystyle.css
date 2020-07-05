@@ -173,7 +173,7 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: 1px solid white;
+    border: 0.5px solid whitesmoke;
     object-fit: cover;
     transition: all 1s;
 }
@@ -201,3 +201,45 @@ ul.sidebar-buttons li.sidebar-button .sidebar-button-link i:hover {
         height: 50px;
     }
 } */
+
+/* 修改頁面footer 內容沒填滿一樣置底CSS ==================================================*/
+#main {
+    display: flex;
+    flex-direction: column;
+}
+.postShorten-group,
+#categories-archives,
+#tags-archives,
+.post {
+    flex: 1;
+}
+@media all and (min-width: 1284px) {
+    #main {
+        padding: 0 !important;
+    }
+}
+
+/* 繼續閱讀的按鈕修改 ==================================================*/
+.postShorten-excerpt > p:last-child {
+    text-align: right;
+}
+.postShorten-excerpt > p:last-child a {
+    position: relative;
+    text-decoration: none;
+    transition: all 2s;
+}
+.postShorten-excerpt > p:last-child a::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 2.5px;
+    background-color: #0c5d72;
+    bottom: -2.5px;
+    transition: all 0.5s;
+}
+
+a:hover::before {
+    content: "";
+    width: 100% !important;
+}
