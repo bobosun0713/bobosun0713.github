@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue on Bobosun</title>
+    <link>https://bobosun0713.github.io/tags/vue/</link>
+    <description>Recent content in Vue on Bobosun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Dec 2020 02:03:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://bobosun0713.github.io/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一次接觸Vue 來寫個轉盤吧！</title>
+      <link>https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/</link>
+      <pubDate>Mon, 28 Dec 2020 02:03:33 +0800</pubDate>
+      
+      <guid>https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/</guid>
+      <description>&lt;p&gt;剛接觸框架最快上手的方式，就是動手作！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

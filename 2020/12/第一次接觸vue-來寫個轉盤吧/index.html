@@ -8,35 +8,35 @@
 <meta name="generator" content="Hugo 0.72.0 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Bobo Sun">
 <meta name="keywords" content="tech">
-<meta name="description" content="函示預設值兩種寫法 ES5 / ES6">
+<meta name="description" content="剛接觸框架最快上手的方式，就是動手作！">
 
 
-<meta property="og:description" content="函示預設值兩種寫法 ES5 / ES6">
+<meta property="og:description" content="剛接觸框架最快上手的方式，就是動手作！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JS-函式預設值">
-<meta name="twitter:title" content="JS-函式預設值">
-<meta property="og:url" content="https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
-<meta property="twitter:url" content="https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+<meta property="og:title" content="第一次接觸Vue 來寫個轉盤吧！">
+<meta name="twitter:title" content="第一次接觸Vue 來寫個轉盤吧！">
+<meta property="og:url" content="https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
+<meta property="twitter:url" content="https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
 <meta property="og:site_name" content="Bobosun">
-<meta property="og:description" content="函示預設值兩種寫法 ES5 / ES6">
-<meta name="twitter:description" content="函示預設值兩種寫法 ES5 / ES6">
+<meta property="og:description" content="剛接觸框架最快上手的方式，就是動手作！">
+<meta name="twitter:description" content="剛接觸框架最快上手的方式，就是動手作！">
 <meta property="og:locale" content="zh-tw">
 
   
-    <meta property="article:published_time" content="2020-11-04T22:37:16">
+    <meta property="article:published_time" content="2020-12-28T02:03:33">
   
   
-    <meta property="article:modified_time" content="2020-11-04T22:37:16">
+    <meta property="article:modified_time" content="2020-12-28T02:03:33">
   
-  
-  
-    
-      <meta property="article:section" content="JavaScript學習">
-    
   
   
     
-      <meta property="article:tag" content="技術">
+      <meta property="article:section" content="Ｖue學習">
+    
+  
+  
+    
+      <meta property="article:tag" content="Vue">
     
   
 
@@ -49,6 +49,9 @@
 
 
 
+  <meta property="og:image" content="https://bobosun0713.github.io/img/vuejs_logo.png">
+  <meta property="twitter:image" content="https://bobosun0713.github.io/img/vuejs_logo.png">
+
 
 
 
@@ -57,14 +60,14 @@
   <meta property="twitter:image" content="https://bobosun0713.github.io/images/self/self01.jpg">
 
 
-    <title>JS-函式預設值</title>
+    <title>第一次接觸Vue 來寫個轉盤吧！</title>
 
     <link rel="icon" href="https://bobosun0713.github.io/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+    <link rel="canonical" href="https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -199,15 +202,15 @@
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      JS-函式預設值
+      第一次接觸Vue 來寫個轉盤吧！
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2020-11-04T22:37:16&#43;08:00">
+      <time itemprop="datePublished" datetime="2020-12-28T02:03:33&#43;08:00">
         
-  十一月 4, 2020
+  十二月 28, 2020
 
       </time>
     
@@ -216,7 +219,7 @@
   
     <span>分類</span>
     
-      <a class="category-link" href="https://bobosun0713.github.io/categories/javascript%e5%ad%b8%e7%bf%92">JavaScript學習</a>
+      <a class="category-link" href="https://bobosun0713.github.io/categories/%ef%bd%96ue%e5%ad%b8%e7%bf%92">Ｖue學習</a>
     
   
 
@@ -226,34 +229,22 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <h1 id="函示預設值兩種寫法-es5--es6">函示預設值兩種寫法 ES5 / ES6</h1>
+              <p>剛接觸框架最快上手的方式，就是動手作！</p>
+<h1 id="用-vue3-來寫轉盤吧">用 Vue3 來寫轉盤吧！</h1>
 <blockquote>
-<p>在 ES5 中我們函式的預設值寫法為 :</p>
+<p>首先在撰寫 Vue 版本的時候，因為工作上的需要，已經寫過ＪＳ的版本了，會想使用 Vue 再次寫一遍，除了一方面之前工作，公司前端部分沒用框架，幾乎都是ＪＳ或 jQuery 來做前端開發，也因為這樣所以想要增進自己前端的技術能力，在下班時間慢慢學習 Vue 的部分．</p>
 </blockquote>
-<pre><code>function SomePeole (name , age , place){
-    this.name = name !== undefind ? name : '某人';
-    this.age = age !== undefind ? age : 20;
-    this.place = place !== undefind ? place : '地區';
-}
-</code></pre><blockquote>
-<p>在 ES6 中我們函式的預設值可以這樣寫 :</p>
-</blockquote>
-<pre><code>function SomePeole (name='某人' , age=20 , place='地區'){
-
-}
-</code></pre><blockquote>
-<p>這兩段就可以看的出在 ES6 程式碼在簡化的過程中的差異性!</p>
-</blockquote>
-<blockquote>
-<p>但這兩個預設值有限制，如果傳入的參數式 null，函式就不會採用預設值，會判定是自己給 NULL，這部分需要注意。</p>
-</blockquote>
-<blockquote>
-<p>以下特性都不會使用預設值 :</p>
-</blockquote>
+<p>撰寫轉盤的流程大致為：</p>
 <ul>
-<li>0 , null , '&rsquo; / 數字 0 、 空值 、 空字串</li>
+<li>先用ＣＳＳ繪製出轉盤內園的扇行</li>
+<li>再用程式去控制，從資料勞取的數量在計算出每個區塊的角度</li>
+<li>畫面做好，計算要選轉的角度． 通常這部分都會給他預設轉個 5 圈加上原始角度，讓畫面看起來有在轉動．</li>
 </ul>
-<p>以上筆記是再複習過程中所學習到的，希望能加深自己對 JS 程式的熟悉度，如寫法或觀念上的錯誤，請多多包涵!!</p>
+<h2 id="撰寫完的心得">撰寫完的心得</h2>
+<p>在剛開始寫 Vue3 的時候，最重要的是寫法上的差異需去適應，但在撰寫的過程中，也慢慢了解到 Vue 的好用之處，如 v-model 讓我在動態新增獎品時，給我很方便的雙向綁定等等好用的語法，在寫這轉盤我是用 Vue-Cli 專案去寫，雖然我這個可以用一般網頁引入 Vue 直接撰寫，但目前看線上課程已學玩 cli 部分，想趁這機會動手做看看用 cli 專案去寫，順便複習 components / props / emit ，來看看我吸收了多少．</p>
+<h2 id="最後的最後">最後的最後！</h2>
+<p>其實在學習 Vue3 之前，其實就有找時間看 Vue2 的部分，這次我以我自己的感受來說，用 Vue3 寫起來感覺比 Vue2 來的好上手，可能因為邏輯處理的部份，通集中在 setup()裡面，可以讓我知道更好規劃我程式撰寫流程及方便我更好閱讀，但這是我自己的感想，畢竟我寫 Vue 也沒有很久，最後也希望自己能更加熟練 Vue 這個框架，因為真的很好用呀呀！！！！</p>
+<h3 id="demo-httpsbobosun0713githubioside-project__spin-the-wheel">DEMO: <a href="https://bobosun0713.github.io/Side-Project__Spin-the-Wheel/">https://bobosun0713.github.io/Side-Project__Spin-the-Wheel/</a></h3>
               
             </div>
           </div>
@@ -265,7 +256,7 @@
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">標籤</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://bobosun0713.github.io/tags/%E6%8A%80%E8%A1%93/">技術</a>
+  <a class="tag tag--primary tag--small" href="https://bobosun0713.github.io/tags/vue/">Vue</a>
 
                   </div>
                 
@@ -278,7 +269,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/11/2020%E6%97%85%E7%A8%8B/" data-tooltip="2020旅程">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -286,7 +277,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/08/%E8%AA%BF%E6%95%B4%E8%87%AA%E5%B7%B1%E7%9A%84%E6%99%82%E9%96%93/" data-tooltip="調整自己的時間">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/11/2020%E6%97%85%E7%A8%8B/" data-tooltip="2020旅程">
               
                   <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
                   <i class="fa fa-angle-right"></i>
@@ -304,19 +295,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -364,7 +355,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/11/2020%E6%97%85%E7%A8%8B/" data-tooltip="2020旅程">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -372,7 +363,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/08/%E8%AA%BF%E6%95%B4%E8%87%AA%E5%B7%B1%E7%9A%84%E6%99%82%E9%96%93/" data-tooltip="調整自己的時間">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://bobosun0713.github.io/2020/11/2020%E6%97%85%E7%A8%8B/" data-tooltip="2020旅程">
               
                   <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
                   <i class="fa fa-angle-right"></i>
@@ -390,19 +381,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://bobosun0713.github.io/2020/11/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://bobosun0713.github.io/2020/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -432,19 +423,19 @@
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F11%2Fjs-%25E5%2587%25BD%25E5%25BC%258F%25E9%25A0%2590%25E8%25A8%25AD%25E5%2580%25BC%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F12%2F%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%258E%25A5%25E8%25A7%25B8vue-%25E4%25BE%2586%25E5%25AF%25AB%25E5%2580%258B%25E8%25BD%2589%25E7%259B%25A4%25E5%2590%25A7%2F">
           <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F11%2Fjs-%25E5%2587%25BD%25E5%25BC%258F%25E9%25A0%2590%25E8%25A8%25AD%25E5%2580%25BC%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F12%2F%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%258E%25A5%25E8%25A7%25B8vue-%25E4%25BE%2586%25E5%25AF%25AB%25E5%2580%258B%25E8%25BD%2589%25E7%259B%25A4%25E5%2590%25A7%2F">
           <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F11%2Fjs-%25E5%2587%25BD%25E5%25BC%258F%25E9%25A0%2590%25E8%25A8%25AD%25E5%2580%25BC%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fbobosun0713.github.io%2F2020%2F12%2F%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%258E%25A5%25E8%25A7%25B8vue-%25E4%25BE%2586%25E5%25AF%25AB%25E5%2580%258B%25E8%25BD%2589%25E7%259B%25A4%25E5%2590%25A7%2F">
           <i class="fa fa-google-plus"></i><span>分享到 Google&#43;</span>
         </a>
       </li>
@@ -534,9 +525,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/bobosun0713.github.io\/2020\/11\/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC\/';
+          this.page.url = 'https:\/\/bobosun0713.github.io\/2020\/12\/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7\/';
           
-            this.page.identifier = '\/2020\/11\/js-%E5%87%BD%E5%BC%8F%E9%A0%90%E8%A8%AD%E5%80%BC\/'
+            this.page.identifier = '\/2020\/12\/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8E%A5%E8%A7%B8vue-%E4%BE%86%E5%AF%AB%E5%80%8B%E8%BD%89%E7%9B%A4%E5%90%A7\/'
           
         };
         (function() {
